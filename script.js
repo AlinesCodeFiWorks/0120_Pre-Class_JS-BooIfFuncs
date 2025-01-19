@@ -14,4 +14,4 @@ let discountedPrice = ogPrice - totalDiscount;
 let totalTax = discountedPrice * taxRate;
 let finalPrice = discountedPrice + totalTax;
 //5. Log the breakdown in the following format:
-console.log(`Original Price: $${ogPrice}, Discount: $${totalDiscount}, Tax: $${totalTax}, Final Price: $${finalPrice}`);
+console.log(`Original Price: $${ogPrice.toFixed(2)}, Discount: $${totalDiscount.toFixed(2)}, Tax: $${totalTax.toFixed(2)}, Final Price: $${finalPrice.toFixed(2)}`);
